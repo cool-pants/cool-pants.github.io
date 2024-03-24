@@ -35,7 +35,7 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    # push the generated content into the `gh-pages` branch.
+    # push the generated content into the `stable` branch.
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.9.0
       with:
