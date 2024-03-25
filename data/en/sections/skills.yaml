@@ -11,29 +11,24 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
+- name: kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Capable of deploying, managing application on Kubernetes."
   url: "https://kubernetes.io/"
 
-- name: Go Development
+- name: golang
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Using as one of the main languages for professional development. Capable of writing CLI, scripts and scalable and robust APIs both REST and GRPC."
   url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: python
+  logo: /images/sections/skills/python.svg
+  summary: "Using as one of the main languages for professional development. Capable of writing scalable and robust REST APIs using frameworks like Fast API and Django"
 
-- name: Docker
+- name: docker
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
-
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
@@ -41,9 +36,13 @@ skills:
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Mostly, use Github. Have build CLIs on top of the git ecosystem for better interfacing."
   url: "https://git-scm.com/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+- name: rust
+  logo: /images/sections/skills/rust.svg
+  summary: "Picking up rust and wasm for its blazing fast runtimes without a garbage collector."

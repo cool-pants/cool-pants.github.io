@@ -1,7 +1,7 @@
 baseURL: https://cool-pants.github.io
 
 languageCode: en-us
-title: "John's Blog"
+title: "Mainak's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -56,9 +56,9 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/author/mainak-round.png
+    inverted: /images/author/mainak-round.png
+    favicon: /images/author/mainak-round.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/cool-pants/cool-pants.github.io
@@ -82,7 +82,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
@@ -99,7 +99,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -267,7 +267,7 @@ params:
     navigation:
       enable: true
       # show custom menus in the footer
-      customMenus: true
+      customMenus: false
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true

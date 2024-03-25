@@ -11,63 +11,46 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: AmigoX AI.
+    url: "https://amigox.ai/"
+    location: Bengaluru, India
+    logo: /images/sections/experiences/amigox.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Engineer
+    start: May 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Design and Develop a robust and fault tolerant application for online payments
+    - Standardize Load Testing practices for all applications
+    - Lead Backend Development Team to develop and deliver products for multi-tenant clients
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Software Engineering Intern
+    start: Sep 2022
+    end: May 2023
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Implement a ETL tool for migration of data from older deployments to newer deployments 
+    - Create Abstraction to the Standard Requests library to enable proper inter-service communication for micro-service architecture.
+    - Implement an auth backend based on the <a rel="me" target="_blank" title="maker-checker" href="https://en.wikipedia.org/wiki/Maker-checker#:~:text=Maker%2Dchecker%20(or%20Maker%20and,individuals%20necessary%20for%20its%20completion.">4-Eyes</a> principle
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Trademarkia LTD.
+    url: "https://www.trademarkia.com/"
+    location: Chennai, India
+    logo: /images/sections/experiences/trademarkia.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Trademarkia LTD. is the provider of a search tool with the biggest repository of trademarks and logos, along with being one of the most trusted company in Trademark Registration.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Software Engineering intern
+    start: Aug 2022
+    end: May 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Implement Lawyer Appointment booking with the Google Calendars API.
+    - Clean up and Improve Performance of Legacy ASP.NET and .NET Core codebase. Succeeded in improving response times by 60% (5 mins -> 2 mins). 
+    - Create ETL Script in C# and Schedule the Script to sync data from Google Analytics API to Website Analytics Database.
+    - Create MSSQL Scripts to summarize and export CSV results for analytics
