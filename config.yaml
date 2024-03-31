@@ -82,11 +82,11 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
+        facebook: false
         twitter: true
         linkedin: true
         reddit: true
@@ -140,14 +140,14 @@ params:
       enabled: false
       services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        # google:
+        #   id: G-H4LBG7NDFZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
         # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
+        goatCounter:
+          code: cool-pants
         # # Matomo / Piwik
         # matomo:
         #   instance: matomo.example.com
